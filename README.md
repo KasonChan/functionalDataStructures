@@ -5,6 +5,11 @@ This is a repo contains the following data structure implementations. They are
 written in Scala with SBT.
 
 *  Stack
+  -  `push`: Adds an element to the stack
+  -  `isEmpty`: Returns true if the stack is empty
+  -  `pop`: Returns the head of the stack and removes it from the stack
+  -  `head`: Returns the head of the stack
+  -  `tail`: Returns the tail of the stack
 
 Assumptions
 -----------

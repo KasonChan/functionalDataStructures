@@ -7,7 +7,7 @@ case class Name(first: String, Last: String)
 /**
  * Created by kasonchan on 2/19/15.
  */
-object StackDemo {
+object Demos {
   def main(args: Array[String]) {
     val stack1 = new Stack[Int]
 

@@ -42,7 +42,7 @@ class Stack[A] {
   }
 
   /**
-   * Returns the head of the stack and removes from the stack *
+   * Returns the head of the stack and removes it from the stack *
    * @return head: A
    */
   def pop: Any = {

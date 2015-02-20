@@ -1,6 +1,6 @@
 package demoTests
 
-import datastructures.stack.{Cons, Nil, Stack}
+import datastructures.stack.{Nil, Stack}
 import org.scalatest.{FlatSpec, ShouldMatchers}
 
 /**
@@ -36,7 +36,7 @@ class StackDemoTest extends FlatSpec with ShouldMatchers {
   "5. stack pop" should "= Nil" in {
     val stack = new Stack[Int]
     stack.pop should be(Nil)
-    stack.toString should be ("Nil")
+    stack.toString should be("Nil")
   }
 
   "6. stack after pushing 1 to 10 and pop" should "= 10" in {
@@ -63,7 +63,7 @@ class StackDemoTest extends FlatSpec with ShouldMatchers {
 
   "9. stack after push(Name(\"Kason\", \"Chan\") tail" should "= Nil" in {
     case class Name(first: String, last: String)
-    
+
     val stack = new Stack[Name]
     stack.push(Name("Kason", "Chan"))
     stack.tail.toString should be("Nil")
